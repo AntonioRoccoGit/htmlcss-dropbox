@@ -155,7 +155,7 @@ a.link {
 
 /* collab footer */
 .collab-footer {
-    padding: 60px 40px;
+    padding: 60px 0;
     /* debug */
     background-color: rgb(18, 150, 211);
 }
@@ -167,6 +167,24 @@ a.link {
 
 .collab-footer .container.flex {
     align-items: flex-start;
+}
+
+/* faq */
+div.faq {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.faq li {
+    margin-top: 2rem;
+    padding: 0 0 2rem; 
+    padding-right: 3rem;
+    border-bottom: 1px solid gray;
+}
+
+.faq h2 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 2.5rem;
 }
 
 /* COMMON */
