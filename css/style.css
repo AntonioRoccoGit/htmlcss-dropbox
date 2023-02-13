@@ -26,13 +26,14 @@ header {
 }
 
 /* MAIN */
+/* jumbotron */
 .jumbotron {
     /* debug */
     background-color: rgb(18, 150, 211);
 
 }
 
-.jumbotron .container {
+.jumbotron-container {
     margin: 0 auto;
     max-width: 80%;
     padding-top: 2rem;
@@ -52,7 +53,45 @@ header {
     padding-left: 20px;
     flex: .67;
 }
+
+/* find your plan */
+.membership {
+    margin-top: 40px;
+    /* debug */
+    background-color: aqua;
+}
+
+.membership-plan {
+    margin-top: 20px;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.plan-card {
+    width: calc(100% / 3 - (2rem / 3));
+    /* debug */
+    border: 1px solid red;
+}
+
+.plan-card:nth-last-child(1) {
+    width: 100%;
+}
+
+
+
+
+
+
+
 /* COMMON */
 .flex {
     display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 0 40px;
+    /* debug */
+    border: 1px dashed lightgreen;
 }
