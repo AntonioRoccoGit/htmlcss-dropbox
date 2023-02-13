@@ -14,7 +14,10 @@ header {
     padding: 20px;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 999;
     /* debug */
+    background-color: white;
     min-width: 100%;
     height: 25px;
     border: 1px dashed black;
@@ -36,7 +39,7 @@ header {
 .jumbotron-container {
     margin: 0 auto;
     max-width: 80%;
-    padding-top: 2rem;
+    padding-top: 4.4rem;
     /* debug */
     border: 1px solid black;
 }
@@ -64,7 +67,6 @@ header {
 .membership-plan {
     margin-top: 20px;
     gap: 1rem;
-    flex-wrap: wrap;
 }
 
 .plan-card {
@@ -77,6 +79,40 @@ header {
     width: 100%;
 }
 
+/* Find our partner */
+.find-partner {
+    margin-top: 40px;
+    gap: 20px;
+    /* debug */
+    background-color: lightskyblue;
+}
+
+.partner-img {
+    flex: .65;
+}
+
+.partner-text {
+    flex: .35;
+    margin-top: 40px;
+}
+
+/* About us */
+div.about-us {
+    margin-top: 40px;
+    /* debug */
+    background-color: lightgreen;
+}
+
+ul.about-us {
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.about-us li {
+    margin-top: 10px;
+    width: calc(100% / 3 - (20px / 3));
+}
+
 
 
 
@@ -86,6 +122,7 @@ header {
 /* COMMON */
 .flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -94,4 +131,13 @@ header {
     padding: 0 40px;
     /* debug */
     border: 1px dashed lightgreen;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration-line: none;
 }
