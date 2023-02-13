@@ -10,7 +10,7 @@ img {
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* HEADER */
@@ -166,7 +166,6 @@ a.link {
 }
 
 .collab-footer .container.flex {
-    justify-content: space-between;
     align-items: flex-start;
 }
 
@@ -174,6 +173,10 @@ a.link {
 .flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .container {
@@ -204,6 +207,11 @@ a {
 .button {
     background-color: white;
     padding: 8px 40px;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 800;
 }
 
 h2 {
