@@ -238,8 +238,14 @@ hr.card-section {
     margin-top: 40px;
 }
 
-.partner-description {
-    margin: 1rem 0;
+.about-us-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+p.description {
+    margin: 1.5rem 0;
 }
 
 .button-small.partner {
@@ -251,8 +257,6 @@ hr.card-section {
 /* About us */
 div.about-us {
     margin-top: 40px;
-    /* debug */
-    background-color: lightgreen;
 }
 
 ul.about-us {
@@ -286,7 +290,6 @@ a.link {
 }
 
 .adds-img {
-    background-color: blueviolet;
     width: calc(100% / 3);
     height: calc(100vw / 3);
 }
@@ -296,8 +299,7 @@ a.link {
     overflow-y: auto;
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    /* debug */
-    background-color: antiquewhite;
+    background-color: #F5F5F5;
 }
 
 .adds-img li {
@@ -307,7 +309,6 @@ a.link {
     width: 50%;
     height: calc((100vw / 3) / 2 );
     /* debug */
-    border: 1px solid black;
 }
 
 .adds-img img {
@@ -318,8 +319,8 @@ a.link {
 /* collab footer */
 .collab-footer {
     padding: 3.75rem 0;
-    /* debug */
-    background-color: rgb(18, 150, 211);
+    background-color: #B4D0E7;
+    
 }
 
 .collab-footer h2{
@@ -388,7 +389,7 @@ div.lenguage {
     display: inline-block;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-  }
+}
 
 .user::before {
     font: var(--fa-font-solid);
@@ -430,3 +431,51 @@ div.lenguage {
     font-size: .8rem;
     color: #0061FF;
 }
+
+/* COLOR */
+/* partner square color */
+
+:root {
+    --design-it-color: #A2D39B;
+    --asu-color: #61082B;
+    --u-florida-color: #0093CE;
+    --topps-color: #FF1C1C;
+    --w-bicycle-color: #D5001F;
+    --hearts-corp-color: #B4D0E7;
+    --lonely-plnt-color: #0D2481;
+    --clear-chanel-color: #FFD830;
+}
+
+ul.left-partner li:nth-child(1) {
+    background-color: var(--design-it-color);
+    border: 12px solid #D1E9CD;
+}
+
+ul.left-partner li:nth-child(2) {
+    background-color: var(--asu-color);
+}
+
+ul.left-partner li:nth-child(3) {
+    background-color: var(--u-florida-color);
+}
+
+ul.left-partner li:nth-child(4) {
+    background-color: var(--topps-color);
+}
+
+ul.right-partner li:nth-child(1) {
+    background-color: var(--w-bicycle-color);
+}
+
+ul.right-partner li:nth-child(2) {
+    background-color: var(--hearts-corp-color);
+}
+
+ul.right-partner li:nth-child(3) {
+    background-color: var(--lonely-plnt-color);
+}
+
+ul.right-partner li:nth-child(4) {
+    background-color: var(--clear-chanel-color);
+}
+
