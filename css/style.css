@@ -25,20 +25,20 @@ body {
 
 .container {
     margin: 0 auto;
-    min-width: 800px;
+    /* min-width: 800px; */
     max-width: 60%;
     padding: 0 5rem;
 }
 
 .big-container {
     margin: 0 auto;
-    min-width: 800px;
+    /* min-width: 800px; */
     max-width: 60%;
     position: relative;
     padding-top: 8rem;
 }
 
-ul {
+ul:not(.fa-ul) {
     list-style-type: none;
 }
 
@@ -142,7 +142,6 @@ div.selection input:last-child {
 
 .plan-card {
     width: calc(100% / 3 - (2rem / 3));
-    /* debug */
 }
 
 .plan-card:nth-last-child(1) {
@@ -360,7 +359,7 @@ div.lenguage {
     margin-right: .3rem;
 }
 
-.folder:: {
+.share:: {
     font: var(--fa-font-solid);
     content: "\f1e0";
     margin-right: .3rem;
