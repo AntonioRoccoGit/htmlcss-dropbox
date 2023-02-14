@@ -25,20 +25,20 @@ body {
 
 .container {
     margin: 0 auto;
-    /* min-width: 800px; */
+    min-width: 1000px;
     max-width: 60%;
     padding: 0 5rem;
 }
 
 .big-container {
     margin: 0 auto;
-    /* min-width: 800px; */
+    min-width: 1000px;
     max-width: 60%;
     position: relative;
     padding-top: 8rem;
 }
 
-ul:not(.fa-ul) {
+ul {
     list-style-type: none;
 }
 
@@ -142,21 +142,21 @@ div.selection input:last-child {
 
 .plan-card {
     width: calc(100% / 3 - (2rem / 3));
+    border: 1px solid #c0bfbf;
 }
 
 .plan-card:nth-last-child(1) {
     width: 100%;
 }
-
+ /* card specifications */
 .card-title {
     text-align: center;
-    padding: 1rem;
-    border: 1px solid #c0bfbf;
+    padding: .4rem;
+    border-bottom: 1px solid #c0bfbf;
 }
 
 .body-card {
     padding: 2rem 1rem;
-    border: 1px solid #c0bfbf;
     border-top: none;
 }
 
@@ -165,7 +165,7 @@ div.selection input:last-child {
     margin-bottom: .5rem;
 }
 
-.price {
+.card-bold-text {
     font-size: .8rem;
     margin-bottom: .5rem;
 }
@@ -176,12 +176,57 @@ div.selection input:last-child {
     font-weight: 400;
 }
 
+.fa-ul {
+    margin-top: 2rem;
+    margin-left: 0;
+    font-size: .8rem;
+}
+
+.fa-li {
+    margin-left: -10px;
+}
+
+.fa-ul li {
+    margin-top: 1rem;
+}
+
+div.trial {
+    padding: 2rem 0;
+}
+
+div.buy-now {
+    font-size: .8rem;
+}
+div.buy-now a{
+    color: #0061FF;
+    text-decoration: underline;
+}
+
+hr.card-section {
+    margin: 2rem 0;
+    width: 50px;
+}
+
+.check a {
+    margin-left: -6px;
+}
+
+.last-card-wrap {
+    padding: 1.4rem 1rem;
+}
+
+.last-card-body {
+    width: 65%;
+}
+
+.last-card-description {
+    font-size: .8rem;
+}
+
 /* Find our partner */
 .find-partner {
     margin-top: 40px;
     gap: 20px;
-    /* debug */
-    background-color: lightskyblue;
 }
 
 .partner-img {
@@ -191,6 +236,16 @@ div.selection input:last-child {
 .partner-text {
     flex: .35;
     margin-top: 40px;
+}
+
+.partner-description {
+    margin: 1rem 0;
+}
+
+.button-small.partner {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 /* About us */
@@ -339,28 +394,39 @@ div.lenguage {
     font: var(--fa-font-solid);
     content: "\f007";
     margin-right: .3rem;
+    font-size: .8rem;
 }
 
-.group:: {
+.group::before {
     font: var(--fa-font-solid);
     content: "\e592";
     margin-right: .3rem;
+    font-size: .8rem;
 }
 
-.building:: {
+.building::before {
     font: var(--fa-font-solid);
     content: "\f1ad";
     margin-right: .3rem;
+    font-size: .8rem;
 }
 
-.folder:: {
+.folder::before {
     font: var(--fa-font-solid);
     content: "\f07b";
     margin-right: .3rem;
+    font-size: .8rem;
 }
 
-.share:: {
+.share::before {
     font: var(--fa-font-solid);
     content: "\f1e0";
     margin-right: .3rem;
+    font-size: .8rem;
+}
+.check::before {
+    font: var(--fa-font-solid);
+    content: "\f00c";
+    font-size: .8rem;
+    color: #0061FF;
 }
