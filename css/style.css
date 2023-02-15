@@ -47,6 +47,10 @@ a {
     text-decoration-line: none;
 }
 
+hr {
+    margin: 2rem 0;
+}
+
 .button {
     background-color: white;
     padding: 0.5rem 2.5rem;
@@ -119,7 +123,7 @@ header {
     flex: .33;
 }
 
-h3{
+h3 {
     font-size: .9rem;
     font-weight: 400;
 }
@@ -226,7 +230,6 @@ div.buy-now a{
 }
 
 hr.card-section {
-    margin: 2rem 0;
     width: 50px;
 }
 
@@ -323,6 +326,19 @@ a.link {
     width: calc(100% / 3);
     height: calc(100vw / 3);
     background-color: #F5F5F5;
+    font-weight: 500;
+}
+
+.adds-description img {
+    width: 50%;
+}
+
+.adds-description-hr {
+    width: 100px;
+}
+
+p.signature {
+    padding: 2rem 0;
 }
 
 .adds-img li {
