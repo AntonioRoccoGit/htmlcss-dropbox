@@ -56,6 +56,14 @@ hr {
     padding: 0.5rem 2.5rem;
 }
 
+.button:hover {
+    opacity: 70%;
+}
+
+.button-small.partner:hover {
+    opacity: 70%;
+}
+
 .block {
     display: inline-block;
 }
@@ -67,6 +75,10 @@ hr {
     padding: .3rem .8rem;
 }
 
+.button-small:hover {
+    opacity: 90%;
+}
+
 h1 {
     font-size: 4.5rem;
     font-weight: 800;
@@ -75,6 +87,7 @@ h1 {
 h2 {
     font-size: 2rem;
 }
+
 
 /* HEADER */
 header {
@@ -375,6 +388,7 @@ p.signature {
 div.faq {
     padding-top: 3.8rem;
     padding-bottom: 9rem;
+    background-color: white;
 }
 
 .faq li {
@@ -390,6 +404,26 @@ div.faq {
     padding-bottom: 2.5rem;
 }
 
+.faq-content {
+    width: 100%;
+    font-size: .8rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    display: none;
+}
+
+.faq li:hover .faq-content {
+    display: block;
+}
+
+.faq i {
+    transition: all .4s linear; 
+}
+
+.faq li:hover i {
+    transform: rotateX(-180deg);
+}
+
 /* FOOTER */
 footer {
     background-color: black;
@@ -403,6 +437,10 @@ footer {
 .footer-list li {
     padding-bottom: 0.6rem;
     font-size: 0.8rem;
+}
+
+.footer-list li:hover {
+    color: #999999;
 }
 
 /* lenguage */
