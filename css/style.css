@@ -59,6 +59,7 @@ a {
 .button-small {
     background-color: #0061FF;
     color: white;
+    text-align: center;
     padding: .3rem .8rem;
 }
 
@@ -91,7 +92,11 @@ header {
     margin-right: 1.8rem;
 }
 
-.header-nav-bar li:not(:first-child):hover {
+.header-nav-bar:first-child li:not(:first-child):hover {
+    border-bottom: 1px solid black;
+}
+
+.header-nav-bar:last-child li:hover {
     border-bottom: 1px solid black;
 }
 
@@ -174,12 +179,12 @@ div.selection input:last-child {
 }
 
 .sub-type {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     margin-bottom: .5rem;
 }
 
 .card-bold-text {
-    font-size: .8rem;
+    font-size: 1rem;
     margin-bottom: .5rem;
 }
 
@@ -192,7 +197,7 @@ div.selection input:last-child {
 .fa-ul {
     margin-top: 2rem;
     margin-left: 0;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 .fa-li {
@@ -205,6 +210,11 @@ div.selection input:last-child {
 
 div.trial {
     padding: 2rem 0;
+}
+
+.trial .button-small {
+    width: 90%;
+    margin: 0 auto;
 }
 
 div.buy-now {
@@ -233,7 +243,7 @@ hr.card-section {
 }
 
 .last-card-description {
-    font-size: .8rem;
+    font-size: 1rem;
 }
 
 /* Find our partner */
